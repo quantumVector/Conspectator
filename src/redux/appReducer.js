@@ -1,5 +1,5 @@
+import basicQuestions from "./questions/basicQustions";
 import reactQuestions from "./questions/reactQuestions";
-import generalQuestions from "./questions/generalQustions";
 
 const shuffle = (arr) => {
   let shuffledArray = arr;
@@ -13,9 +13,9 @@ const shuffle = (arr) => {
 };
 
 const initialState = {
-  general: shuffle(generalQuestions),
+  general: shuffle(basicQuestions),
   react: shuffle(reactQuestions),
-  all: shuffle([...generalQuestions, ...reactQuestions]),
+  all: shuffle([...basicQuestions, ...reactQuestions]),
 }
 
 const appReducer = (state = initialState, action) => {
