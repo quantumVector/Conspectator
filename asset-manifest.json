@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Interview-Assistant/static/css/main.a4616d21.chunk.css",
-    "main.js": "/Interview-Assistant/static/js/main.8cf7053d.chunk.js",
-    "main.js.map": "/Interview-Assistant/static/js/main.8cf7053d.chunk.js.map",
+    "main.js": "/Interview-Assistant/static/js/main.5315e724.chunk.js",
+    "main.js.map": "/Interview-Assistant/static/js/main.5315e724.chunk.js.map",
     "runtime-main.js": "/Interview-Assistant/static/js/runtime-main.d1220e96.js",
     "runtime-main.js.map": "/Interview-Assistant/static/js/runtime-main.d1220e96.js.map",
     "static/js/2.ec44b62a.chunk.js": "/Interview-Assistant/static/js/2.ec44b62a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d1220e96.js",
     "static/js/2.ec44b62a.chunk.js",
     "static/css/main.a4616d21.chunk.css",
-    "static/js/main.8cf7053d.chunk.js"
+    "static/js/main.5315e724.chunk.js"
   ]
 }
