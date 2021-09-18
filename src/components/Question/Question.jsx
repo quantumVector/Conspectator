@@ -6,8 +6,10 @@ const Question = ({ text, id, increaseIndex }) => {
   return (
     <div className={classes.question}>
       <h1>{text}</h1>
-      <a className={classes.btn} href={`/answer/${id}`}>Показать ответ</a>
-      <div className={classes.btn} onClick={() => increaseIndex()}>Следующий вопрос</div>
+      <div className={classes.btnWrap}>
+        <a className={classes.btn} href={`/answer/${id}`}>Показать ответ</a>
+        <div className={classes.btn} onClick={() => increaseIndex()}>Следующий вопрос</div>
+      </div>
     </div>
   )
 }

@@ -7,7 +7,12 @@
   text-align: center;
 }
 
+.btnWrap {
+  display: flex;
+}
+
 .btn {
+  margin: 0 10px;
   text-decoration: none;
   color: #1a1a1a;
   background-color: rgba(187,239,253,0.3);

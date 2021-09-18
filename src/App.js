@@ -20,7 +20,7 @@ function App({ all }) {
           id={all[index].id}
           increaseIndex={increaseIndex} />}
         />
-        <Route path="/answer/:id" render={() => <Answer /> } />
+        <Route path="/answer/:id" render={() => <Answer increaseIndex={increaseIndex} />} />
       </Switch>
     </div>
   );
