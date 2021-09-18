@@ -5,6 +5,7 @@ import { compose } from 'redux';
 import './App.css';
 import Question from './components/Question/Question';
 import Answer from './components/Answers/Answer';
+import Menu from './components/Menu/Menu';
 
 function App({ all }) {
   const [index, setIndex] = useState(0);
@@ -22,6 +23,7 @@ function App({ all }) {
         />
         <Route path="/answer/:id" render={() => <Answer increaseIndex={increaseIndex} />} />
       </Switch>
+      <Menu />
     </div>
   );
 }

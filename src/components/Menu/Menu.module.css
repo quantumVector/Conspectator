@@ -1,0 +1,46 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-left: 40px;
+  padding-top: 60px;
+  width: 440px;
+  min-height: 100vh;
+  overflow-y: auto;
+  background-color: rgb(247, 247, 247);
+}
+
+.listTitle {
+  margin-top: 20px;
+  padding-right: 7px;
+  padding-left: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 3;
+  text-transform: uppercase;
+  color: rgb(109, 109, 109);
+}
+
+.listTitle:hover {
+  color: rgb(26, 26, 26);
+  cursor: pointer;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  margin-top: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+}
+
+.link:hover {
+  opacity: 0.8;
+}
