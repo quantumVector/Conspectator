@@ -44,3 +44,28 @@
 .link:hover {
   opacity: 0.8;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .modal {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .modal {
+    width: 200px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .modal {
+    width: 170px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .modal {
+    display: none;
+  }
+}

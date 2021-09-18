@@ -13,3 +13,36 @@
 .btn {
   cursor: pointer;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .app {
+    margin-right: 375px;
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .app {
+    margin-right: 250px;
+    width: 65%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .app {
+    margin-right: 200px;
+    width: 60%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .app {
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+}
