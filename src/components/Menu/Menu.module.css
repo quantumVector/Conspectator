@@ -1,4 +1,4 @@
-.modal {
+.menu {
   position: fixed;
   top: 0;
   right: 0;
@@ -8,6 +8,7 @@
   min-height: 100vh;
   overflow-y: auto;
   background-color: rgb(247, 247, 247);
+  z-index: 1;
 }
 
 .listTitle {
@@ -45,27 +46,68 @@
   opacity: 0.8;
 }
 
+.btn {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(32, 35, 42);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 23433;
+}
+
+.arrow, .cross {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(97, 218, 251);
+}
+
+.cross {
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+.arrowNotVisible {
+  display: none;
+}
+
+.crossNotVisible {
+  display: none;
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
-  .modal {
+  .menu {
     width: 300px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .modal {
+  .menu {
     width: 200px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .modal {
+  .menu {
     width: 170px;
     padding-left: 20px;
   }
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  .modal {
+  .menu {
     display: none;
+  }
+  .btn {
+    display: flex;
+  }
+  .activeMenu {
+    display: block;
   }
 }
