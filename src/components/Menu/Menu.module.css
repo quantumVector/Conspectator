@@ -46,6 +46,13 @@
   opacity: 0.8;
 }
 
+.active {
+  padding-left: 10px;
+  font-weight: 700;
+  color: rgb(26, 26, 26);
+  border-left: 4px solid rgb(97, 218, 251);
+}
+
 .btn {
   display: none;
   flex-direction: column;

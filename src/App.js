@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route, Switch } from 'react-router';
+import { Redirect, Route, Switch } from 'react-router';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import './App.css';
@@ -17,7 +17,8 @@ function App({ all }) {
   return (
     <div className="app">
       <Switch>
-        <Route exact path="/" render={() => <Question text={all[index].question}
+        <Route exact path='/' render={() => <Redirect to={"/question"} />} />
+        <Route path="/question" render={() => <Question text={all[index].question}
           id={all[index].id}
           increaseIndex={increaseIndex} />}
         />

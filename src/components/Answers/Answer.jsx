@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import classes from './Answer.module.css';
 import basicCollection from './Basic/basicCollection';
 import reactCollection from './React/reactCollection';
@@ -11,7 +12,7 @@ const Answer = () => {
 
   return <div className={classes.answerContainer}>
     <Content />
-    <a className={classes.btn} href="/">Следующий вопрос</a>
+    <NavLink to="/" className={classes.btn}>Следующий вопрос</NavLink>
   </div>
 }
 
