@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Interview-Assistant/static/css/main.a4616d21.chunk.css",
-    "main.js": "/Interview-Assistant/static/js/main.fda39661.chunk.js",
-    "main.js.map": "/Interview-Assistant/static/js/main.fda39661.chunk.js.map",
+    "main.js": "/Interview-Assistant/static/js/main.fb0ec7a1.chunk.js",
+    "main.js.map": "/Interview-Assistant/static/js/main.fb0ec7a1.chunk.js.map",
     "runtime-main.js": "/Interview-Assistant/static/js/runtime-main.d1220e96.js",
     "runtime-main.js.map": "/Interview-Assistant/static/js/runtime-main.d1220e96.js.map",
-    "static/js/2.fbdc8867.chunk.js": "/Interview-Assistant/static/js/2.fbdc8867.chunk.js",
-    "static/js/2.fbdc8867.chunk.js.map": "/Interview-Assistant/static/js/2.fbdc8867.chunk.js.map",
+    "static/js/2.d9fe31e7.chunk.js": "/Interview-Assistant/static/js/2.d9fe31e7.chunk.js",
+    "static/js/2.d9fe31e7.chunk.js.map": "/Interview-Assistant/static/js/2.d9fe31e7.chunk.js.map",
     "static/js/3.c7637ef2.chunk.js": "/Interview-Assistant/static/js/3.c7637ef2.chunk.js",
     "static/js/3.c7637ef2.chunk.js.map": "/Interview-Assistant/static/js/3.c7637ef2.chunk.js.map",
     "index.html": "/Interview-Assistant/index.html",
     "static/css/main.a4616d21.chunk.css.map": "/Interview-Assistant/static/css/main.a4616d21.chunk.css.map",
-    "static/js/2.fbdc8867.chunk.js.LICENSE.txt": "/Interview-Assistant/static/js/2.fbdc8867.chunk.js.LICENSE.txt"
+    "static/js/2.d9fe31e7.chunk.js.LICENSE.txt": "/Interview-Assistant/static/js/2.d9fe31e7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d1220e96.js",
-    "static/js/2.fbdc8867.chunk.js",
+    "static/js/2.d9fe31e7.chunk.js",
     "static/css/main.a4616d21.chunk.css",
-    "static/js/main.fda39661.chunk.js"
+    "static/js/main.fb0ec7a1.chunk.js"
   ]
 }
